@@ -31,6 +31,7 @@ ul {
 .navbar {
     display: flex;
     flex-direction: row;
+    height: 54px;
 }
 
 .navbar-left, .navbar-right {
@@ -76,6 +77,7 @@ h1 {
     font-size: small;
     border-radius: 5px;
     border: none;
+    margin-top: 20px;
 }
 
 img {
@@ -86,4 +88,47 @@ img {
     font-size: 18px;
     color: white;
     margin-left: 1px;
+}
+
+h2 {
+   color: #1F2937;
+   font-size: 36px;
+   font-weight: 900; 
+   text-align: center;
+}
+
+
+.blue-box {
+    width: 200px;
+    height: 210px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.row-blue-squares-msg {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 100px;
+    justify-content: space-between;
+}
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.singular-blue-square-msg {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    flex-direction: column;
 }
