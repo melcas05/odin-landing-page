@@ -132,3 +132,33 @@ h2 {
     width: 25%;
     flex-direction: column;
 }
+
+.third-section {
+    background-color: #E5E7EB;
+    height: 350px;
+
+}
+
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-third {
+    font-weight: bold;
+    display: flex;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 150px;
+    font-size: large;
+}
