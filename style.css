@@ -162,3 +162,44 @@ h3 {
     padding-right: 150px;
     font-size: large;
 }
+
+.fourth-section {
+    align-content: center;
+    margin: 0 auto;
+    
+}
+
+.fourth-section-sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+h4 , .p-fourth {
+    color: white;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sign-up {
+    border: none;
+    outline: 3px solid white;
+    background-color: transparent;
+    width: 125px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+
+}
+
+
+
